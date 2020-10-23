@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Что будет с рублём</title>
+</head>
+<body id="root">
+    <h1>Что будет с рублём?</h1>
+    <div class="central-block" id="main">
+        <form action="">
+            <div class="input-group">
+                <!-- <span id="help" class="material-icons help">
+                    help
+                </span> -->
+                <p>Расскажите, что происходит в стране и в мире</p>
+                <p class="error-message" id="error"></p>
+                <div class="input-cont">
+                    <input type="text" id="input" placeholder="Нефть подешевела">
+                    <button class="button button--add" id="buttonAdd">
+                        <span class="material-icons">
+                            check
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <ol class="list" id="list">
+
+            </ol>
+            <button class="button" id="button">Получить прогноз</button>
+        </form>
+    </div>
+    <!-- <div class="howItWork" id="howItWork">
+        <h2 class="howItWork__title">
+            Как это работает
+        </h2>
+        <p class="howItWork__description">
+            Наш сервис позволяет получить прогноз курса рубля. И мы уверены в своих прогнозах. Есть три причины нашей уверенности:
+            <div class="howItWork__icon-group">
+                <p class="icon-group__icon icon-group__icon--star">
+                    <span class="material-icons">
+                        star_rate
+                    </span>
+                    В разработке сервиса принимали участие настоящие звёзды экономики. Им точно можно доверять
+                </p>
+                <p class="icon-group__icon icon-group__icon--star">
+                    <span class="material-icons">
+                        miscellaneous_services
+                    </span>
+                    Вычислительные мощности наших дата-центров способны обработать огромные массивы данных. Мы не упустим ничего из виду
+                </p>
+                <p class="icon-group__icon icon-group__icon--star">
+                    <span class="material-icons">
+                        thumb_up_alt
+                    </span>
+                    Эффективность сервиса многократно подтверждена в большом количестве тестов
+                </p>
+            </div>
+        </p>
+    </div> -->
+    <script src="index.js"></script>
+</body>
+</html>
