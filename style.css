@@ -666,7 +666,6 @@ input:focus {
         transform: translateX(-50%);
     }
 }
-
 @-webkit-keyframes hand {
 
     0%,
